@@ -1,52 +1,33 @@
-# Project Name
-> Outline a brief description of your project.
+# Bike Demand Prediction
 
+> This project involves building a multiple linear regression model to predict the demand for shared bikes based on various independent variables.
 
 ## Table of Contents
-* [General Info](#general-information)
+* [General Information](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
-
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- **Background:** This project focuses on predicting bike-sharing demand to help BoomBikes, a US bike-sharing provider, prepare for increased demand post-pandemic. The goal is to understand which factors affect bike demand and to use this insight to inform business strategies.
+- **Business Problem:** BoomBikes is experiencing reduced revenue due to the pandemic and aims to develop a model to forecast bike demand to optimize their operations and increase profitability once the market recovers.
+- **Dataset:** The dataset includes daily records of bike rentals, including variables such as weather conditions, season, year, and counts of casual and registered users. The target variable for the model is 'cnt,' which represents the total number of bike rentals.
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+- **Conclusion 1:** Significant predictors of bike demand include weather conditions (light snow most negatively affects ridership), temperature, and year. These variables have a meaningful impact on the number of bike rentals.
+- **Conclusion 2:** The multiple linear regression model provides a good fit for predicting bike demand, with an R-squared score of 0.8 on the test data.
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+- Python - version 3.11.7
+- pandas - version 2.1.4
+- numpy - version 1.26.4
+- scikit-learn - version 1.2.2
+- matplotlib - version 3.8.4
+- seaborn - version 0.13.2
+- statsmodels - version 0.14.0
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
+- This project was done as part of the IIITB Executive PG Diploma in Machine Learning and Artificial Intelligence course assignment.
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@skelkar8] - feel free to contact me!
